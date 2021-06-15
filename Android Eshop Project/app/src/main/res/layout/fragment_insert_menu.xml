@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insertMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:text="Insert Menu" />
+
+        <Button
+            android:id="@+id/Userin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USER" />
+
+        <Button
+            android:id="@+id/Itemin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITEM" />
+
+        <Button
+            android:id="@+id/Transactionin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRANSACTION" />
+
+        <Button
+            android:id="@+id/ITransactionin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITEM IN TRANSACTION" />
+    </LinearLayout>
+
+</FrameLayout>
